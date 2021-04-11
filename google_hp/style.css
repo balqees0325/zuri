@@ -1,0 +1,177 @@
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navbar styling */
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 2em;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav img {
+  height: 20px;
+}
+/* main body styling */
+main {
+  width: 50%;
+  margin: 1.5em auto 10.5em auto;
+  text-align: center;
+}
+.input {
+  position: relative;
+}
+.input i {
+  position:absolute;
+  left: 12%;
+  top: 35%;
+  color: rgba(128, 128, 128, 0.473);
+}
+.input img {
+  position: absolute;
+  height: 20px;
+  top: 35%;
+  right: 12%;
+}
+input {
+  width: 80%;
+  padding: 1em;
+  border: 1px solid rgba(128, 128, 128, 0.356);
+  border-radius: 30px;
+}
+.btn {
+  margin-top: 1em;
+}
+.btn button {
+  padding:.8em;
+  border: none;
+  color: rgba(95, 94, 94, 0.959);
+  background-color: rgba(224, 216, 216, 0.212);
+}
+/* footer styling */
+footer {
+  background-color: rgba(185, 184, 184, 0.192);
+}
+footer p, footer a {
+  color: gray;
+}
+.footer-top {
+  padding: 1em;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(128, 128, 128, 0.425);
+  
+}
+.footer-left a, .footer-right a {
+  margin-right: 1em;
+}
+/* media query for responsiveness @max-width: 876px*/
+@media (max-width: 868px) {
+  nav {
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  margin-left: auto;
+  padding: 2em;
+}
+main {
+  width: 80%;
+  margin: 1.5em auto 11em auto;
+  text-align: center;
+}
+input {
+  width: 80%;
+  padding: 1em;
+  border: 1px solid rgba(128, 128, 128, 0.356);
+  border-radius: 30px;
+}
+.footer-top {
+  padding: 1em;
+  font-size: 0.9em;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(128, 128, 128, 0.425);
+  font-size: 0.9em;
+  
+}
+.footer-left a, .footer-right a {
+  margin-right: 1em;
+}
+}
+
+/* media query for responsiveness @max-width: 500px*/
+@media (max-width: 500px) {
+   nav {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+  margin-left: auto;
+  padding: 2em;
+}
+main {
+  width: 80%;
+  margin: 0 auto 10.2em auto;
+  text-align: center;
+}
+.input {
+  position: relative;
+}
+.input i {
+  position:absolute;
+  left: 9%;
+  top: 35%;
+  color: rgba(128, 128, 128, 0.473);
+}
+.input img {
+  position: absolute;
+  height: 20px;
+  top: 35%;
+  right: 9%;
+}
+input {
+  width: 90%;
+  padding: 1em;
+  border: 1px solid rgba(128, 128, 128, 0.356);
+  border-radius: 30px;
+}
+footer {
+  color: gray;
+}
+.footer-top {
+  padding: 1em;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(128, 128, 128, 0.425);
+  text-align: center;
+  font-size: 1em;
+}
+.footer-bottom a {
+  color:gray;
+}
+.footer-middle {
+  display: none;
+}
+.footer-right {
+  padding-top: 1em;
+}
+}
